@@ -1,0 +1,1 @@
+{"Species": {"Iris-setosa": 0, "Iris-versicolor": 1, "Iris-virginica": 3}, "columns": ["SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm"]}

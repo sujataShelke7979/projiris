@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flowers Type </title>
+	<style>
+		body {
+		    background-image: url("https://wallpaper.dog/large/310719.jpg");
+		    background-repeat: no-repeat;
+		    background-size: cover;
+        }
+        h1, label {
+            text-align: center;
+        }
+		
+    </style>
+</head>
+<body>
+        
+     <h1>Flowers prediction</h1>
+     <form method="GET" action="/predict_charges">
+        <div id='SepalLengthCm'></div>
+        <label>SepalLengthCm:</label>
+        <input type="text" name='SepalLengthCm'>
+        </select>
+    </div>
+        <br>
+        <br>
+             <label>SepalWidthCm:</label>
+             <input type="text" name="SepalWidthCm">
+             </select>
+        <br>
+        <br>
+             <label>PetalLengthCm:</label>
+             <input type="text" name="PetalLengthCm">
+             </select>
+        <br>
+        <br>
+             <label>PetalWidthCm:</label>
+             <input type="text" name="PetalWidthCm">
+             </select>
+        <br>
+        <br>
+             
+         
+	<input type = "submit" value = "SUBMIT">
+        
+        <br>
+        <br>
+
+
+	</form>
+	<p><b>{{prediction}}.</b></p>
+        
+</body>
+</html>
